@@ -1,0 +1,13 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Roboto+Serif:opsz@8..144&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: roboto-serif, sans-serif;
+    font-weight: 300;
+}
