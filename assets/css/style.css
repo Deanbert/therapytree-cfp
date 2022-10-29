@@ -10,21 +10,52 @@
 body {
     font-family: public-sans, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #0081A7;
+    background-color: #FDFCDC;
 }
 
 /* Heading and Logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
+    color: #00AFB9;
 }
 
 #logo {
-    display: flex;
-    flex-direction: row;
+    float: left;
     font-size: 250%;
     margin-left: 1%;
+    color: #0081A7;
+}
+
+/* Navigation Links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid #f07167;
+}
+
+.active {
+    border-bottom: 1px solid #f07167;
 }
