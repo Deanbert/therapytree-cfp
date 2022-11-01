@@ -267,3 +267,22 @@ hr {
     text-align: center;
     font-size: 150%;
 }
+
+/* Footer Styling and Social Media Icons */
+
+#footer-styling {
+    height: 90px;
+}
+
+#social-networks {
+    color: #0081A7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    gap: 300px;
+    list-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 200%; 
+}
