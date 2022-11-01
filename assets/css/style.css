@@ -12,6 +12,8 @@ body {
     font-weight: 300;
     color: #0081A7;
     background-color: #FDFCDC;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Heading and Logo */
@@ -271,14 +273,14 @@ hr {
 /* Footer Styling and Social Media Icons */
 
 #footer-styling {
-    height: 90px;
+    height: 100px;
 }
 
 #social-networks {
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: stretch;
+    align-content: center;
     gap: 300px;
     list-style: none;
     padding-top: 25px;
