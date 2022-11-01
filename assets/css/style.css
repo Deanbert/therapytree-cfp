@@ -26,8 +26,10 @@ h1 {
 #logo {
     float: left;
     font-size: 250%;
-    margin-left: 1%;
-    color: #0081A7;
+    margin-left: 30px;
+    color: #3a3a3a;
+    background: url('../images/therapy-tree-logo.png') no-repeat center center;
+    background-size: contain;
 }
 
 /* Navigation Links */
@@ -62,7 +64,6 @@ h1 {
 /* Hero Image and Cover Text */
 
 #hero-outer {
-    display: flex;
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -130,4 +131,40 @@ h1 {
     to{
         transform: scale(1.1);
     }
+}
+
+/* About Me */
+
+h1 {
+    font-family: public-sans, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+
+#about-me {
+    display: flex;
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    justify-content: left;
+    background-color: blue;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    justify-content: right;
+    background-color: green;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: yellow;
 }
