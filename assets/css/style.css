@@ -255,14 +255,14 @@ hr {
     justify-content: space-between;
 }
 
-#affirmation-image {
+.affirmation-image {
     display: block;
     height: auto;
     max-width: 100%;
     margin: 0 auto;
 }
 
-#affirmation-image-text {
+.affirmation-image-text {
     padding-top: 25px;
     text-align: center;
     font-size: 150%;
@@ -275,7 +275,6 @@ hr {
 }
 
 #social-networks {
-    color: #0081A7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -285,4 +284,8 @@ hr {
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 200%; 
+}
+
+#social-networks i {
+    color: #0081A7;
 }
