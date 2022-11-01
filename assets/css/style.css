@@ -148,7 +148,7 @@ h1 {
 
 #about-me {
     display: flex;
-    height: 300px;
+    height: 350px;
 }
 
 hr {
@@ -231,4 +231,39 @@ hr {
     height: 100%;
     background-size: contain;
     border-radius: 50%;
+}
+
+/* Affirmations */
+
+#affirmations {
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    background: #FED9B7;
+    position: relative;
+}
+
+#affirmations-header {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 130%;
+}
+
+#affirmation-images-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#affirmation-image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#affirmation-image-text {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 150%;
 }
