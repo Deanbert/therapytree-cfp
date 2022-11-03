@@ -27,11 +27,18 @@ h1 {
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 185%;
     margin-left: 30px;
+    line-height: 75px;
     color: #3a3a3a;
-    background: url('../images/therapy-tree-logo.png') no-repeat center center;
-    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img {
+    height: 50px;
+    width: 50px;
 }
 
 /* Navigation Links */
@@ -39,10 +46,6 @@ h1 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-}
-
-#menu,
-#logo {
     line-height: 75px;
 }
 
@@ -247,7 +250,7 @@ hr {
 /* Affirmations */
 
 #affirmations {
-    height: 450px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     background: #FED9B7;
@@ -264,6 +267,7 @@ hr {
 #affirmation-images-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .affirmation-image {
@@ -564,4 +568,60 @@ input[type=submit] {
     margin: 0 auto;
     font-weight: normal;
     font-size: 150%;
+}
+
+@media only screen and (max-width: 950px) {
+    #menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        line-height: 40px;
+    }
+
+    #menu-li {
+        margin-right: none;
+    }
+
+    #about-me {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .left-about-top, .left-about-bottom, .right-about-top, .right-about-bottom {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+
+    #right-about, #left-about {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        gap: 20px;
+        width: auto;
+        max-width: 400px;
+    }
+
+    #center-about {
+        order: 1;
+        width: 100%;
+        gap: 20px;
+    }
+
+    #left-about {
+        order: 2;
+    }
+
+    #right-about {
+        order: 3;
+    }
+
 }
