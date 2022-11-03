@@ -366,14 +366,14 @@ section.faq {
     z-index: 2;
 }
   
-  #faq ul {
+#faq ul {
     list-style: none;
     perspective: 900;
     padding: 0;
     margin: 0;
-  }
+}
 
-  #faq ul li {
+#faq ul li {
     position: relative;
     overflow: hidden;
     padding: 0;
@@ -382,24 +382,24 @@ section.faq {
     background: rgba(254, 217, 183, .4);
     box-shadow: 0 3px 10px -2px rgba(0,0,0,0.1);
     -webkit-tap-highlight-color: transparent;
-  }
+}
 
-  #faq ul li + li {
+#faq ul li + li {
     margin-top: 15px;
-  }
+}
 
-  #faq ul li:last-of-type {
+#faq ul li:last-of-type {
     padding-bottom: 0;
-  }
+}
 
-  #faq ul li i {
+#faq ul li i {
     position: absolute;
     transform: translate(-6px, 0);
     margin-top: 28px;
     right: 15px;
-  }
+}
 
-  #faq ul li input[type=checkbox] {
+#faq ul li input[type=checkbox] {
     position: absolute;
     cursor: pointer;
     width: 100%;
@@ -407,24 +407,69 @@ section.faq {
     z-index: 1;
     opacity: 0;
     touch-action: manipulation;
-  }
+}
 
-  #faq ul li input[type=checkbox]:checked ~ h2 {
+#faq ul li input[type=checkbox]:checked ~ h2 {
     color: #000;
-  }
+}
 
-  #faq ul li input[type=checkbox]:checked ~ p {
+#faq ul li input[type=checkbox]:checked ~ p {
     /*margin-top: 0;*/
     max-height: 0;
     transition: .3s;
     opacity: 0;
     /*transform: translate(0, 50%);*/
-  }
+}
 
-  #faq ul li input[type=checkbox]:checked ~ i:before {
+#faq ul li input[type=checkbox]:checked ~ i:before {
     transform: translate(2px, 0) rotate(45deg);
-  }
+}
 
-  #faq ul li input[type=checkbox]:checked ~ i:after {
+#faq ul li input[type=checkbox]:checked ~ i:after {
     transform: translate(-2px, 0) rotate(-45deg);
-  }
+}
+
+/* Testimonials */
+
+#client-container {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#client-container h2 {
+    font-size: 180%;
+    border-bottom: 1px solid #FED9B7;
+}
+
+#client-container h3 {
+    text-align: center;
+    color: #3a3a3a;
+}
+
+#client-container p {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.client-container-1 {
+    flex: 1;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.client-container-2 {
+    flex: 1;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.client-container-3 {
+    flex: 1;
+    padding: 40px;
+    font-size: 20px;
+}
