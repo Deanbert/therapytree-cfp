@@ -83,6 +83,9 @@ h1 {
     width: 100%;
     background: url('../images/waves-crashing-sunset.jpg') no-repeat center center;
     background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 
     /* Animation of zoom effect on loading page*/
     animation-name: hero-zoom;
@@ -103,20 +106,20 @@ h1 {
 
 /* Cover text for Hero Image */
 
-#cover-text,
-cover-text h2 {
+#cover-text, h2 {
     color: #3a3a3a;
     text-align: center;
-    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 10px;
     font-size: 125%;
 }
 
 #cover-text {
-    font-size: 110%;
+    font-size: 85%;
     font-family: raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: 15%;
+    margin: 50px 10vw 0;
 
     width: 0 auto;
     height: 0 auto;
@@ -127,11 +130,6 @@ cover-text h2 {
     padding-bottom: 40px;
 
     background-color: rgba(253, 252, 220, 0.4);
-
-    margin-top: 50px;
-    margin-bottom: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
 
     position: absolute;
 }
@@ -163,12 +161,7 @@ cover-text h2 {
 #about-me {
     display: flex;
     height: 350px;
-}
-
-hr {
-    border-top: 1px solid #f07167;
-    width: 95%;
-    margin: 5px 0;
+    padding: 0 3vw;
 }
 
 #left-about {
@@ -180,20 +173,20 @@ hr {
 
 .left-about-top {
     padding-top: 30px;
-    padding-left: 15px;
     width: 90%;
     line-height: 20px;
     clear: both;
     margin-bottom: 10px;
+    border-bottom: 1px solid #f07167;
 }
 
 .left-about-bottom {
     padding-top: 100px;
-    padding-left: 15px;
     width: 90%;
     line-height: 20px;
     clear: both;
     margin-bottom: 10px;
+    border-bottom: 1px solid #f07167;
 }
 
 #right-about {
@@ -201,6 +194,7 @@ hr {
     padding-right: 15px;
     width: 33%;
     flex-direction: column;
+    align-items: flex-end;
     text-align: right;
 }
 
@@ -211,6 +205,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 10px;
+    border-bottom: 1px solid #f07167;
 }
 
 .right-about-bottom {
@@ -220,6 +215,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 10px;
+    border-bottom: 1px solid #f07167;
 }
 
 #center-about {
@@ -275,6 +271,7 @@ hr {
     height: auto;
     max-width: 100%;
     margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 .affirmation-image-text {
@@ -445,11 +442,15 @@ ul li i:after {
 
 #client-container {
     display: flex;
-    width: 30%;
+    max-width: 750px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
+}
+
+#client-container img {
+    width: 100%;
 }
 
 #client-container h2 {
@@ -460,6 +461,7 @@ ul li i:after {
 #client-container h3 {
     text-align: center;
     color: #3a3a3a;
+    padding-bottom: 10px;
 }
 
 #client-container p {
