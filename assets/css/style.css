@@ -542,16 +542,19 @@ input[type=submit] {
     width: 100%;
     background: url('../images/tranquil-mountain-hero-image.jpg') no-repeat center center;
     background-size: cover;
-    padding: 0 50px;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #thank-you {
-    padding: 30px;
-    width: 50%;
+    padding: 20px;
+    max-width: 600px;
     border: 1px solid #3a3a3a;
     border-radius: 15px;
     background-color: rgba(253, 252, 220, 0.5);
-    margin: 100px auto;
+    margin: 0 auto;
     text-align: center;
     font-size: 100%;
 }
