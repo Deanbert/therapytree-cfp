@@ -495,7 +495,7 @@ ul li i:after {
 #contact-us-details {
     padding: 20px;
     width: 30%;
-    border: 2px solid #3a3a3a;
+    border: 1px solid #3a3a3a;
     border-radius: 15px;
     background-color: rgba(253, 252, 220, 0.5);
     margin: 0 auto;
@@ -534,4 +534,32 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
+}
+
+/* Form Submission Thank You Page */
+
+#contact-us-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/tranquil-mountain-hero-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px;
+}
+
+#thank-you {
+    padding: 30px;
+    width: 50%;
+    border: 1px solid #3a3a3a;
+    border-radius: 15px;
+    background-color: rgba(253, 252, 220, 0.5);
+    margin: 100px auto;
+    text-align: center;
+    font-size: 100%;
+}
+
+#thank-you h1 {
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 150%;
 }
