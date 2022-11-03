@@ -485,16 +485,15 @@ ul li i:after {
 /* Contact Us */
 
 #contact-us-image {
-    height: 600px;
     width: 100%;
     background: url('../images/tranquil-mountain-hero-image.jpg') no-repeat center center;
     background-size: cover;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 #contact-us-details {
     padding: 20px;
-    width: 30%;
+    max-width: 600px;
     border: 1px solid #3a3a3a;
     border-radius: 15px;
     background-color: rgba(253, 252, 220, 0.5);
@@ -504,9 +503,9 @@ ul li i:after {
 }
 
 #form-container {
-    width: 30%;
+    max-width: 600px;
     margin: 40px auto;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #3a3a3a;
     border-radius: 15px;
     background-color: rgba(253, 252, 220, 0.5);
@@ -538,12 +537,12 @@ input[type=submit] {
 
 /* Form Submission Thank You Page */
 
-#contact-us-image {
+#thank-you-image {
     height: 600px;
     width: 100%;
     background: url('../images/tranquil-mountain-hero-image.jpg') no-repeat center center;
     background-size: cover;
-    padding: 50px;
+    padding: 0 50px;
 }
 
 #thank-you {
