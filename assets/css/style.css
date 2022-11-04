@@ -626,4 +626,10 @@ input[type=submit] {
         order: 3;
     }
 
+    #hero-image {
+        animation-name: hero-zoom;
+        animation-duration: 0s;
+        animation-fill-mode: none;
+    }
+
 }
