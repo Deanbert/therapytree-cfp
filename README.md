@@ -6,12 +6,6 @@ Therapy Tree - CFP is designed to be a responsive website allowing visitors to v
 
 [View Therapy Tree Website on Github Pages](https://deanbert.github.io/therapytree-cfp/)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/deanbert-therapytreecfp?color=green)
-![GitHub contributors](https://img.shields.io/github/contributors/deanbert-therapytreecfp?color=yellow)
-![GitHub language count](https://img.shields.io/github/languages/deanbert-therapytreecfp?color=red)
-![GitHub top language](https://img.shields.io/github/languages/top/deanbert-therapytreecfp?color=orange)
-![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fdeanbert.github.io%2Ftherapytreecfp)
-
 ## CONTENT
 
 * [User Experience (UX)](#User-Experience-(UX))
