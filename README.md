@@ -322,4 +322,4 @@ I would like to acknowledge the following people who helped me along the way in 
 
 * [Malia Havlicek](https://github.com/maliahavlicek), My Code Institute Mentor.
 * [Kera Cudmore](https://github.com/kera-cudmore) - For her webinar and information on read.me files.
-* [Ernesto Ambrozas](https://github.com/eambrozas) - For his help with his help with bug triage and for taking the time to properly explain things to me in a way that really helped me understand.
+* [Ernesto Ambrozas](https://github.com/eambrozas) - For his help with bug triage and for taking the time to properly explain things to me in a way that really helped me understand.
