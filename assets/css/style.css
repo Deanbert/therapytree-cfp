@@ -295,7 +295,7 @@ h1 {
 
 #social-networks i {
     color: #0081A7;
-    max-width: 0 auto;
+    max-width: auto;
 }
 
 /* FAQ's */
@@ -377,7 +377,7 @@ ul li i:after {
 
 #faq ul {
     list-style: none;
-    perspective: 900 0;
+    perspective: 900;
     padding: 0;
     margin: 0;
 }
