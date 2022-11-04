@@ -121,8 +121,8 @@ h1 {
     border-radius: 15%;
     margin: 50px 10vw 0;
 
-    width: 0 auto;
-    height: 0 auto;
+    max-width: 0 auto;
+    height: auto;
 
     padding-top: 40px;
     padding-left: 20px;
@@ -295,7 +295,7 @@ h1 {
 
 #social-networks i {
     color: #0081A7;
-    width: 0 auto;
+    max-width: 0 auto;
 }
 
 /* FAQ's */
@@ -377,7 +377,7 @@ ul li i:after {
 
 #faq ul {
     list-style: none;
-    perspective: 900;
+    perspective: 900 0;
     padding: 0;
     margin: 0;
 }
@@ -580,10 +580,6 @@ input[type=submit] {
         align-items: center;
         justify-content: center;
         line-height: 40px;
-    }
-
-    #menu-li {
-        margin-right: none;
     }
 
     #about-me {
