@@ -27,25 +27,19 @@ Therapy Tree - CFP is designed to be a responsive website allowing visitors to v
 * [Deployment & Local Development](#Deployment-&-Local-Development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
-    * [How to Fork](#How-to-Fork)
     * [How to Clone](#How-to-Clone)
 
 * [Testing](#Testing)
-  * [W3C Validator](#W3C-Validator)
+  * [Validation](#Validation)
   * [Solved Bugs](#Solved-Bugs)
   * [Known Bugs](#Known-Bugs)
   * [Testing User Stories](#Testing-User-Stories)
   * [Lighthouse](#Lighthouse)
-    * [Index Page](#Index-Page)
-    * [Books Page](#Books-Page)
-    * [Contact Us Page](#Contact-Us-Page)
-    * [Thank You Page](#Thank-You-Page)
   * [Full Testing](#Full-Testing)
   
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
   * [Content](#Content)
-  * [Media](#Media)
   * [Acknowledgments](#Acknowledgments)
 
 - - -
@@ -302,7 +296,7 @@ Links.
 
 Contact Us Form.
 
-1. Test the contact us form. I tried to submit the form without filling in any input fields, filling in only one input field, filling in a combination of only 2 input fields, filling in a combination of only 3 input fields. The form worked correctly each time and prevented users from continuing and prompted them to fill in the correct fields. I then filled out the necessary fields as instructed by the form and was able to submit, the form then opened the thank you page in the same browser window.
+1. Test the contact us form. I tried to submit the form without filling in any input fields, filling in only one input field, filling in a combination of only 2 input fields, filling in a combination of only 3 input fields. The form worked correctly each time and prevented users from continuing and prompted them to fill in the correct fields. I then filled out the necessary fields as instructed by the form and was able to submit, the form then opened the thank you page in the same browser window. 
 
 - - -
 
